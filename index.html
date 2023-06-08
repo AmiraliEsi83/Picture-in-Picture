@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture in Picture</title>
+    
+    <link rel="icon" type="image/png" href="pictureinpicture.png">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="header">
+        <h2>Only works best in Chrome</h2>
+        <h1>Picture in Picture</h1>
+        <h3>By Amir Ali Eslami</h3>
+    </div>
+    
+    <!-- Video -->
+    <video id="video" height="360" width="640" hidden controls></video>
+    <!-- Button -->
+    <div class="button-container">
+        <button id="select-share-screen-button">
+            <img src="https://img.icons8.com/carbon-copy/100/000000/picture-in-picture.png"/>
+            <p>Start PiP </p>
+           </button>
+           
+        <button id="stop-capture-button" hidden>
+            <img src="https://img.icons8.com/carbon-copy/100/000000/close-window.png"/>
+            <p>Close PiP</p>
+        </button>
+    </div>
+    </div>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
