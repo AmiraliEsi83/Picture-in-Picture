@@ -3,7 +3,7 @@ A web application that would allow to have an adjustable second screen floating 
 
 ## Live Project
 
-My version [here](https://pic-in-pic.netlify.app/)
+My version [here](https://amiraliesi83.github.io/Picture-in-Picture/)
 
 ## Instructions
 
